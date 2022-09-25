@@ -1,6 +1,7 @@
 version: "3"
 services:
   node-app:
+    image: hamzaesmael/tresmerge-docker:tagname
     depends_on:
       - redis
     container_name: express-node-app-container
